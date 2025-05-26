@@ -3,8 +3,5 @@
 因为防止封号，用了GUI的方式模拟发消息， 在运行前，先安装一下依赖<br>
 
 ```pip install pyautogui pyperclip
-
-
-
 #安装完依赖后CD dc_chat存放路径,就可以开始运行了<br>
-python dc_chat.py
+```python dc_chat.py
