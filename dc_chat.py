@@ -46,7 +46,7 @@ def get_context(auth, chanel_id):
 # GUI模拟输入消息
 def simulate_typing_message(message):
     pyautogui.click()  # 点击输入框（请事先手动聚焦在Discord输入框）
-    time.sleep(random.uniform(0.3, 0.6))LFG，Spark no1
+    time.sleep(random.uniform(0.3, 0.6))
 
     pyperclip.copy(message)
     pyautogui.hotkey('ctrl', 'v')
